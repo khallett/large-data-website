@@ -3,6 +3,6 @@
 ## Scenario
 
 **I am a…** retired science teacher,
-**I want to…** learn about the animals that are in deadly, 
+**I want to…** learn about  animals that are deadly in Australia, 
 **So I can…** enjoy my vacation. 
 
