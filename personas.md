@@ -21,7 +21,7 @@
 ## Elizabeth
 
 - **Age**: 65
-- **Background**: Worked full time for 40 years, Elizabeth is finally enjoying her time inthe ways she wants. The website will help inform people like Elizabeth and help to keep them out of danger on their leisurely but exciting travels. 
+- **Background**: Worked full time for 40 years, Elizabeth is finally enjoying her time in the ways she wants. The website will help inform people like Elizabeth and help to keep them out of danger on their leisurely but exciting travels. 
 - **Occupation**: Retired
 - **Personal Goals**: To enjoy her retirement in peace, but still have a little bit of adventure.
 - **Likes**: Traveling, relaxing, enjoying nature
