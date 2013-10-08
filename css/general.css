@@ -1,0 +1,63 @@
+a:link {color:#000000; text-decoration:none;}  
+a:visited {color:#000000;}  
+a:hover {color:#F90;}  
+a:active {color:#000000;} 
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+.top-bg {
+	height: 20px;
+	background: url(images/top-bg.jpg) repeat-x;
+	border-bottom: 10px solid #CCC;
+	margin-bottom: 10px;
+}
+
+.flex-img {
+	display: block;
+	width: 100%;\
+	
+	padding: 5%;
+}
+
+.grid {
+	overflow: hidden;
+}
+
+.navlinks {
+	background-color: #CCC;
+	padding: 10px;
+	margin-top: 10px;
+	
+	text-align: center;
+}
+
+p {
+	background-color: #CCC;
+	
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.unit {
+	float: left;
+}
+
+.unit-spacer {
+	padding: 1em;
+}
+
+
+
+
+footer {
+	background-color: #CCC;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	text-align: center;
+}
