@@ -4,22 +4,22 @@ a:hover {color:#F90;}
 a:active {color:#000000;} 
 
 html {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 100%;
 }
 
 .top-bg {
 	height: 20px;
-	background: url(images/top-bg.jpg) repeat-x;
+	background: url(../images/top-bg.jpg) repeat-x;
 	border-bottom: 10px solid #CCC;
 	margin-bottom: 10px;
 }
 
 .flex-img {
 	display: block;
-	width: 100%;\
+	width: 100%;
 	
-	padding: 5%;
+	padding: 0%;
 }
 
 .grid {
@@ -46,15 +46,65 @@ p {
 	float: left;
 }
 
+.unit h2 {
+	text-align: center;
+}
+
 .unit-spacer {
 	padding: 1em;
 }
 
+@media only screen and (min-width: 38em) and (max-width: 60em) {
+	
+	.navlinks {
+		font-size: 130%;
+	}
+	
+	p {
+		text-align: center;
+		font-size: 130%;
+	}
+	
+	.unit {
+		float: none;
+	}
+	
+	.unit-m-1-2 { 
+	
+		float: none;
+		width: 50%;
+	}
+}
 
+
+@media only screen and (min-width: 55em) and (max-width: 70em) {
+	
+	.navlinks {
+		font-size: 150%;
+	}
+	
+	p {
+		font-size: 150%;
+	}	
+	
+}
+
+@media only screen and (min-width: 70em) and (max-width: 90em) {
+	
+	.navlinks {
+		font-size: 170%;
+	}
+	
+	p {
+		font-size: 170%;
+	}	
+	
+}
 
 
 footer {
-	background-color: #CCC;
+	background: url(../images/bottom-bg.jpg) repeat-x;
+	border-top: 10px solid #CCC;
 	padding: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
