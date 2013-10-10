@@ -101,6 +101,17 @@ p {
 	
 }
 
+@media only screen and (min-width: 90em) and (max-width: 110em) {
+	
+	.navlinks {
+		font-size: 190%;
+	}
+	
+	p {
+		font-size: 190%;
+	}	
+	
+}
 
 footer {
 	background: url(../images/bottom-bg.jpg) repeat-x;
