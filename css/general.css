@@ -34,6 +34,17 @@ html {
 	text-align: center;
 }
 
+.hp-content {
+	background-color: #CCC;
+	
+	margin-top: 0;
+	padding: 15px;
+}
+
+h1 {
+	padding-left: 15px;
+}
+
 p {
 	background-color: #CCC;
 	
