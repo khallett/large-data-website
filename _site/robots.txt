@@ -1,9 +1,0 @@
-#http://robotstxt.org
-
-#Show search engines where you find your sitemap
-Sitemap: http://australiasdeadliest.com/sitemap.xml
-
-User - Agent *
-
-#Block images from showing in search results
-#Disallow: /img
