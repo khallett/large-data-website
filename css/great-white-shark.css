@@ -1,9 +1,15 @@
+html {
+	font-size: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
 nav ul ul  {
 	display: none;	
 }
 
 nav ul li:hover > ul {
 	display: block;
+	position: absolute;
 }
 
 nav ul {
@@ -12,8 +18,13 @@ nav ul {
 	border-radius: 3px;  
 	list-style: none;
 	position: relative;
-	display: inline-table;
-	overflow:hidden;
+	vertical-align: top;
+}
+
+nav ul > li {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
 }
 
 nav ul:after {
@@ -32,43 +43,21 @@ nav ul li a {
 	width: 100%;
 }
 
-.grid {
-	overflow: hidden;
-}
-
-.unit {
-	float: left;
-}
-
-.unit-spacer {
-	padding: 1em;
-}
-
-@media only screen and (max-width: 38em) {
+@media only screen and (min-width:60em) {
 	
-	.unit-s-1 {
-		float: none;
-		width: 100%;
+	
+	.nav ul li a {
+		font-size: 140%;
 	}
 	
-}
-
-@media only screen and (min-width: 38em) and (max-width: 60em) {
-
-	.unit-m-1-2 {
-		float: none;
-		width: 50%;
+	.unit-l-1 {
+		text-align: center;
+		margin-right:auto;
+		margin-left:auto;
 	}
 	
-	.unit-m-1-2 {
-		width: 50%;
+	p {
+		font-size: 140%;
 	}
-		
-}
-
-@media only screen and (min-width: 60em) and (max-width: 78em) {
 	
-	.unit-l-2-3 {
-		float: right;
-	}
 }
