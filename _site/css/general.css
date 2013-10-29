@@ -29,10 +29,6 @@ html {
 	padding: 0%;
 }
 
-.grid {
-	overflow: hidden;
-}
-
 .navlinks {
 	background-color: #CCC;
 	padding: 10px;
@@ -61,19 +57,12 @@ p {
 	padding: 15px;
 }
 
-.unit {
-	float: left;
-}
-
 .unit h2 {
 	text-align: center;
 }
 
-.unit-spacer {
-	padding: 1em;
-}
 
-@media only screen and (min-width: 38em) and (max-width: 60em) {
+@media only screen and (min-width: 38em) {
 	
 	.navlinks {
 		font-size: 130%;
@@ -84,19 +73,10 @@ p {
 		font-size: 130%;
 	}
 	
-	.unit {
-		float: none;
-	}
-	
-	.unit-m-1-2 { 
-	
-		float: none;
-		width: 50%;
-	}
 }
 
 
-@media only screen and (min-width: 55em) and (max-width: 70em) {
+@media only screen and (min-width: 55em) {
 	
 	.navlinks {
 		font-size: 150%;
@@ -108,7 +88,7 @@ p {
 	
 }
 
-@media only screen and (min-width: 70em) and (max-width: 90em) {
+@media only screen and (min-width: 70em) {
 	
 	.navlinks {
 		font-size: 170%;
@@ -120,7 +100,7 @@ p {
 	
 }
 
-@media only screen and (min-width: 90em) and (max-width: 110em) {
+@media only screen and (min-width: 90em) {
 	
 	.navlinks {
 		font-size: 190%;
