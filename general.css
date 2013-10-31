@@ -1,0 +1,126 @@
+a:link {color:#000000; text-decoration:none;}  
+a:visited {color:#000000;}  
+a:hover {color:#F90;}  
+a:active {color:#000000;} 
+
+html {
+	font-family: Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+.logoimg {
+	text-align: center;
+}
+.top-bg {
+	height: 20px;
+	background: url(../images/top-bg.jpg) repeat-x;
+	border-bottom: 10px solid #CCC;
+	margin-bottom: 10px;
+}
+
+.flex-img {
+	display: block;
+	width: 100%;
+	
+	padding: 0%;
+}
+
+.spread-img {
+	display: block;
+	width: 100%;
+	
+	padding: 0%;
+}
+
+.navlinks {
+	background-color: #CCC;
+	padding: 10px;
+	margin-top: 10px;
+	
+	text-align: center;
+}
+
+.hp-content {
+	background-color: #CCC;
+	
+	margin-top: 0;
+	padding: 15px;
+}
+
+h1 h2 {
+	padding-left: 15px;
+}
+
+
+p {
+	background-color: #CCC;
+	
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.unit h2 {
+	text-align: center;
+}
+
+
+@media only screen and (min-width: 38em) {
+	
+	.navlinks {
+		font-size: 130%;
+	}
+	
+	p {
+		text-align: center;
+		font-size: 130%;
+	}
+	
+}
+
+
+@media only screen and (min-width: 55em) {
+	
+	.navlinks {
+		font-size: 150%;
+	}
+	
+	p {
+		font-size: 150%;
+	}	
+	
+}
+
+@media only screen and (min-width: 70em) {
+	
+	.navlinks {
+		font-size: 170%;
+	}
+	
+	p {
+		font-size: 170%;
+	}	
+	
+}
+
+@media only screen and (min-width: 90em) {
+	
+	.navlinks {
+		font-size: 190%;
+	}
+	
+	p {
+		font-size: 190%;
+	}	
+	
+}
+
+footer {
+	background: url(../images/bottom-bg.jpg) repeat-x;
+	border-top: 10px solid #CCC;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	text-align: center;
+}
