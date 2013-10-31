@@ -1,0 +1,65 @@
+html {
+	font-size: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#FC9;
+}
+
+nav ul ul  {
+	display: none;	
+}
+
+nav ul li:hover > ul {
+	display: block;
+	position: absolute;
+}
+
+nav ul {
+	background: #F90;
+	padding: 0 20px;
+	border-radius: 3px;  
+	list-style: none;
+	position: relative;
+	vertical-align: top;
+}
+
+nav ul > li {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+nav ul li a {
+	display: block; 
+	padding: 25px 40px;
+	color: #fff; 
+	text-decoration: none;
+}
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+@media only screen and (min-width:60em) {
+	
+	
+	.nav ul li a {
+		font-size: 140%;
+	}
+	
+	.unit-l-1 {
+		text-align: center;
+		margin-right:auto;
+		margin-left:auto;
+	}
+	
+	p {
+		font-size: 160%;
+		line-height: 140%;
+	}
+	
+}
