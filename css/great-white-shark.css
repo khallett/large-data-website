@@ -1,6 +1,7 @@
 html {
 	font-size: 100%;
 	font-family:Arial, Helvetica, sans-serif;
+	background-color:#FC9;
 }
 
 nav ul ul  {
@@ -57,7 +58,8 @@ nav ul li a {
 	}
 	
 	p {
-		font-size: 140%;
+		font-size: 160%;
+		line-height: 140%;
 	}
 	
 }

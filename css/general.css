@@ -8,6 +8,9 @@ html {
 	font-size: 100%;
 }
 
+.logoimg {
+	text-align: center;
+}
 .top-bg {
 	height: 20px;
 	background: url(../images/top-bg.jpg) repeat-x;
