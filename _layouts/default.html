@@ -2,29 +2,66 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>{{page.title}} - Empty Index</title>
-<link href="{{site.baseurl}}/../css/general.css" rel="stylesheet">
+<title>{{page.title}} – Empty Index</title>
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="240">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Deadly animals in Australia">
+<link href="css/general.css" rel="stylesheet">
+<link href="css/grid.css" rel="stylesheet">
 </head>
 
 <body>
+    
+    <ul class="skiplinks">
+        <li><a href="#main">Skips to primary content</a></li>
+        <li><a href="#navigation">Skips to navigation</a></li>
+        <li><a href="#footer">Skips to footer</a></li>
+    </ul>
 
-		<div class="top-bg"></div>
-            <div class="nav">
-                <img src="http://placehold.it/150x150" class="logo">
-                <div class="navlinks">
-                    <nav>
-                        <a href="">OCEAN</a>
-                        <a href="">REPTILES</a>
-                        <a href="">MAMMALS</a>
-                    </nav>
-                </div>
-            
-            <img src="http://placehold.it/1000x500" class="flex-img">
-        </div>
+<header role="banner">
+	<div class="nav" role="navigation">
+    	<a href="#" rel="home"><img src="images/logo.png" width="150" height="150" class="logo" alt="site logo"></a>
+        	<nav role="navigation" id="navigation">
+            	<ul>
+                    <li><a href="">OCEAN</a>
+                    	<ul>
+                        	<li><a href="blue-ringed-octopus.html">Blue Ringed Octopus</a><li>
+                            <li><a href="great-white-shark.html">Great White Shark</a><li>
+                            <li><a href="blue-ringed-octopus.html">Box Jellyfish</a><li>
+                            <li><a href="blue-ringed-octopus.html">Reef Stonefish</a><li>
+                            <li><a href="great-white-shark.html">Bull Shark</a><li>
+                        </ul>
+                     </li>
+                        
+                    <li><a href="">REPTILE</a>
+                        	<ul>
+                                <li><a href="great-white-shark.html">Brown Snake</a><li>
+                                <li><a href="blue-ringed-octopus.html">Death Adder</a><li>
+                                <li><a href="blue-ringed-octopus.html">King Brown Snake</a><li>
+                            </ul>
+                     </li>
+                            
+                    <li><a href="">BUGS</a>
+                    	<ul>
+                        	<li><a href="great-white-shark.html">Giant Centipede</a><li>
+                            <li><a href="blue-ringed-octopus.html">Bull Ant</a><li>
+                            <li><a href="blue-ringed-octopus.html">Paralysis Tick</a><li>
+                            <li><a href="great-white-shark.html">Honey Bee</a><li>
+                            <li><a href="great-white-shark.html">Black Widow</a><li>
+                            <li><a href="blue-ringed-octopus.html">Funnel Web Spider</a><li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+    </div>
+</header>
 
 {{content}}
 
-	<footer>©Kathryn Hallett</footer>
-
-</body>
-</html>
+	<div role="contentinfo">
+         <footer>
+             <p role="contentinfo">©Australia's Deadliest Animals 2013</p>
+             <a href="#">Copyright</a>
+         </footer>
+	</div>
