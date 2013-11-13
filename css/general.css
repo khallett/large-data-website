@@ -84,3 +84,47 @@ footer {
 	
 	padding: 0.5em;
 }
+
+@media only screen and (min-width: 25em) {
+	
+	.skiplinks {
+		font-size: 2.25rem;
+	}
+	
+	html {
+		font-size: 130%;
+	}
+}
+
+@media only screen and (min-width: 45em) {
+	
+	.skiplinks {
+		font-size: 2.25rem;
+	}
+	
+	html {
+		font-size: 150%;
+	}
+}
+
+@media only screen and (min-width: 65em) {
+	
+	.skiplinks {
+		font-size: 2.25rem;
+	}
+	
+	html {
+		font-size: 150%;
+	}
+}
+
+@media only screen and (min-width: 85em) {
+	
+	.skiplinks {
+		font-size: 2.25rem;
+	}
+	
+	html {
+		font-size: 150%;
+	}
+}
