@@ -78,6 +78,10 @@ nav ul li a {
 	width: 100%;
 }
 
+img {
+	border: 0;
+}
+
 footer {
 	text-align: center;
 	background-color: #99dcff;
