@@ -3,6 +3,14 @@ body {
 	max-width: 600px;
 }
 
+@media only screen and (min-width: 240px) {
+	
+	body {
+		max-width: none;
+	}
+	
+}
+
 .skiplinks {
 	margin: 0;
 	padding: 0;
